@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.home-page{
+    height: 100vh;
+    width: 50vw;
+    position: relative;
+    /* background-image: url(../images/R.jfif); */
+    background: linear-gradient(30deg ,rgb(252, 2, 252) ,rgba(255, 255, 255, 0.747));
+    background-size: 100% 100%;
+
+}
+.home-page-item{
+    border: 1.245px solid black;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% ,-50%);
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+    margin: 7px 0px;
+}
+.home-page-item-desc{
+    color: darkblue;
+    margin: 10px 0px;
+}
+.home-page-item-btn{
+    background-color: gray;
+    color: blue;
+    margin: 5px 0px;
+}
+.home-page-item-btn:hover{
+    color: red;
+}
